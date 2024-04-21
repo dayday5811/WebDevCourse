@@ -1,7 +1,38 @@
 ol {
+  text-align: center;
   margin-left: -40px;
   margin-top: -20px;
   list-style-position: inside;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
+
+.note {
+  font-size: 20px;
+}
+/*. is for class selector and # is for id selector*/
+
+#id-selector-demo {
+  color: green;
+}
+
+li[value="4"] {
+  color: blue;
+}
+
+li[value="5"] {
+  color: brown;
 }
 
 /* Write your CSS below, don't change the rules above. */
